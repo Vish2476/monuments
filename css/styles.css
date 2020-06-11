@@ -124,17 +124,6 @@ li a:hover {
   background-color: white;
   color:black;
 }
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -223,6 +212,7 @@ li a:hover {
 
 .body-title{
   text-align: center;
+  margin-top:20px;
   font-size: 2em;
   font-family: 'Oxygen', sans-serif; 
 
@@ -241,4 +231,7 @@ li a:hover {
   margin-bottom: 30x;
   margin-left: 10%;
   margin-right: 10%px;
+}
+@media screen and (max-width: 500px) {
+  
 }
