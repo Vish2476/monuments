@@ -249,12 +249,20 @@ li a:hover {
   .header-name{
     font-size: 4em;
     } 
+  .header-button {
+    object-position: center;
+    margin:5px;
+  }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) { 
   .header-name{
     font-size: 3.5em;
+  }
+  .header-button {
+    object-position: center;
+    margin:4px;
   }
 
 }
@@ -264,6 +272,10 @@ li a:hover {
 @media (max-width: 479px) {
     .header-name {
     font-size: 3em;
+  }
+    .header-button {
+    object-position: center;
+    margin:3px;
   }
   
 }
