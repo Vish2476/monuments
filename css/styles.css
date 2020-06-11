@@ -314,7 +314,10 @@ li a:hover {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .header-name{
+    .header-button{
+      display:none;
+    }
+      .header-name{
     font-size: 4em;
     } 
   .header-button {
@@ -328,7 +331,10 @@ li a:hover {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) { 
-  .header-name{
+    .header-button{
+      display:none;
+    }
+     .header-name{
     font-size: 3em;
   }
   .header-button {
@@ -354,6 +360,9 @@ li a:hover {
 
 /********** Super extra small devices Only **********/
 @media (max-width: 479px) {
+    .header-button{
+      display:none;
+    }
     .header-name {
     font-size: 3em;
   }
