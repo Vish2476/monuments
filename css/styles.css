@@ -5,12 +5,35 @@ body {
   margin-right: 0px;
   margin-left: 0px;
 }
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  background-color: transparent;
+  text-decoration: none;
+}
 .header{
-  background-image: url("background.jpg");
+  background-image: url("background.jpg") no-repeat scroll center top;
   overflow: hidden;
   background-color: ;
   padding: 0px 0px;
   margin:0px
+}
+.header-img {
+  background: url("logo.png") no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
 }
 .header-name{
   color: black;
