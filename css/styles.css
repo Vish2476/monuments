@@ -242,11 +242,20 @@ li a:hover {
   padding-bottom: 30px;
   background-color: #222;
   border-top: 0;
-  font-size: 1em;
+  
+}
+.panel-footer a:link,a:visited,a:active{
+  color:white;
+}
+.panel-footer a:hover{
+  color:rgb(180, 180, 180);
+  font-size: 1.2em;
 }
 .footer-text{
-  color: white;
+  text-decoration-color: white;
   font-family: 'Oxygen', sans-serif;
+  font-size: 1.5em;
+
 
 }
 /**-------------------------------------------------------------------*
