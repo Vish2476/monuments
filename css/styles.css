@@ -213,13 +213,14 @@ li a:hover {
   from {opacity: .4} 
   to {opacity: 1}
 }
-.body-text{
+#body-text{
   float:left;
   font-family: 'Oxygen', sans-serif;
-  margin: 20px;
-  text-align: justify;
+  margin-left: 20px;
+  text-align: justify-all;
 }
-.body-main{
+
+.body-title{
   text-align: center;
   font-size: 2em;
   font-family: 'Oxygen', sans-serif; 
