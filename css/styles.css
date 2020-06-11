@@ -75,11 +75,6 @@ a:active {
   color: black;
 }
 
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
 .header-right {
   float: right;
 }
@@ -249,10 +244,11 @@ li a:hover {
   border-top: 0;
   font-size: 1em;
 }
-.panel-footer div.row {
-  margin-bottom: 35px;
-}
+.footer-text{
+  color: white;
+  font-family: 'Oxygen', sans-serif;
 
+}
 /**-------------------------------------------------------------------*
 /********** Large devices only **********/
 @media (min-width: 1200px) {
