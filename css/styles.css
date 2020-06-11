@@ -89,7 +89,7 @@ ul {
   overflow: hidden;
   
 }
-div.sticky {
+.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -227,6 +227,17 @@ li a:hover {
   margin-right: 10%px;
 }
 
+.footer{
+  width:100%;
+  height:350px;
+  background-color:black;
+}
+.monuments{
+  font-family: 'Oxygen', sans-serif;
+  text-decoration-color: white;
+  text-align:left;
+
+}
 
 /**-------------------------------------------------------------------*
 /********** Large devices only **********/
