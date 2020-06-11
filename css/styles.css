@@ -36,13 +36,6 @@ a:active {
   top: 0px;
   position: relative;
 }
-.logo{
-  margin:10px;
-  width:120px;
-  height: 100px;
-  position: relative;
-}
-
 .header-name{
   color: black;
   text-align: center;
@@ -238,30 +231,39 @@ li a:hover {
 /**-------------------------------------------------------------------*
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+  .header-name{
+    font-size: 6em;
+    }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+  .header-name{
+    font-size: 5em;
+    }
   
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-}
-
-  
+  .header-name{
+    font-size: 4em;
+    } 
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) {
-  
-}
-  
+@media (max-width: 767px) { 
+  .header-name{
+    font-size: 3.5em;
+  }
+
 }
 
 
 /********** Super extra small devices Only **********/
 @media (max-width: 479px) {
+    .header-name {
+    font-size: 3em;
+  }
   
 }
-**/
