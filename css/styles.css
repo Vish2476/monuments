@@ -255,8 +255,6 @@ li a:hover {
   text-decoration-color: white;
   font-family: 'Oxygen', sans-serif;
   font-size: 1.5em;
-
-
 }
 /**-------------------------------------------------------------------*
 /********** Large devices only **********/
@@ -283,6 +281,9 @@ li a:hover {
     object-position: center;
     margin:5px;
   }
+  .footer-text{
+  font-size: 1.2em;
+}
 }
 
 /********** Extra small devices only **********/
@@ -304,6 +305,9 @@ li a:hover {
   .panel-footer section hr {
     width: 50%;
   }
+  .footer-text{
+  font-size: 1em;
+}
 
 }
 
@@ -317,5 +321,7 @@ li a:hover {
     object-position: center;
     margin:3px;
   }
-  
+  .footer-text{
+  font-size: 0.8em;
+  }
 }
