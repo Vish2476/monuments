@@ -236,9 +236,9 @@ li a:hover {
   background-color: black;
   color: white;
   font-family: 'Oxygen', sans-serif;
-  margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #222;
   border-top: 0;
   
@@ -254,35 +254,6 @@ li a:hover {
   text-decoration-color: white;
   font-family: 'Oxygen', sans-serif;
   font-size: 1.5em;
-}
-/**-------------------------------------------------------------------*
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .header-name{
-    font-size: 6em;
-    }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .header-name{
-    font-size: 5em;
-    }
-  
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .header-name{
-    font-size: 4em;
-    } 
-  .header-button {
-    object-position: center;
-    margin:5px;
-  }
-  .footer-text{
-  font-size: 20px;
- }
 }
 /** Buttons **/
 .fa {
@@ -322,18 +293,50 @@ li a:hover {
   background: #430297;
   color: white;
 }
+.visitor-count{
+    text-align: center;
+}
+/**-------------------------------------------------------------------*
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .header-name{
+    font-size: 6em;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-name{
+    font-size: 5em;
+    }
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-name{
+    font-size: 4em;
+    } 
+  .header-button {
+    object-position: center;
+    margin:5px;
+  }
+  .footer-text{
+  font-size: 20px;
+ }
+}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) { 
   .header-name{
-    font-size: 3.5em;
+    font-size: 3em;
   }
   .header-button {
     object-position: center;
     margin:4px;
   }
   .panel-footer section {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
   }
   .panel-footer section:nth-child(3) {
