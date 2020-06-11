@@ -40,7 +40,7 @@ a:active {
   margin:10px;
   width:120px;
   height: 100px;
-  position: absolute;
+  position: relative;
 }
 
 .header-name{
@@ -235,7 +235,7 @@ li a:hover {
 }
 
 
-/**-------------------------------------------------------------------**/
+/**-------------------------------------------------------------------*
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 }
@@ -247,12 +247,6 @@ li a:hover {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .logo{
-    align-items: center;
-  margin:10px;
-  width:120px;
-  height: 100px;
-  position: absolute;
 }
 
   
@@ -260,12 +254,7 @@ li a:hover {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  .logo{
-    align-items: center;
-  margin:10px;
-  width:120px;
-  height: 100px;
-  position: absolute;
+  
 }
   
 }
@@ -273,12 +262,6 @@ li a:hover {
 
 /********** Super extra small devices Only **********/
 @media (max-width: 479px) {
-  .logo{
-    align-items: center;
-  margin:10px;
-  width:120px;
-  height: 100px;
-  position: absolute;
-}
   
 }
+**/
