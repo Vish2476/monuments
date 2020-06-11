@@ -282,7 +282,7 @@ li a:hover {
     margin:5px;
   }
   .footer-text{
-  font-size: 1.2em;
+  font-size: 20px;
 }
 }
 
@@ -306,7 +306,7 @@ li a:hover {
     width: 50%;
   }
   .footer-text{
-  font-size: 1em;
+  font-size: 18px;
 }
 
 }
@@ -322,6 +322,6 @@ li a:hover {
     margin:3px;
   }
   .footer-text{
-  font-size: 0.8em;
+  font-size: 16px;
   }
 }
