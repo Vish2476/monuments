@@ -2,7 +2,8 @@
 
 body {
   background-attachment: scroll;
-  background: url('../background.jpg') repeat center center;
+  background: url('../background.jpg') repeat center top;
+  font-family: 'Oxygen', sans-serif;
   margin-top: 0px;
   margin-bottom: 0x;
   margin-right: 0px;
@@ -28,7 +29,6 @@ a:active {
 }
 
 .header{
-  background: url('../background-top.jpg') repeat center top;;
   overflow: hidden;
   padding: 0px 0px;
   margin:1px
@@ -41,7 +41,7 @@ a:active {
   color: black;
   text-align: center;
   text-decoration: none;
-  font-family: 'Metal Mania', cursive;
+  font-family: 'Metal Mania', Oxygen;
   font-style: normal;
   font-size: 6em;
   position: sticky;
@@ -50,7 +50,7 @@ a:active {
   float: right;
   position:relative;
   object-position: top;
-  font-family: 'arial',times new roman;
+  font-family: 'Oxygen', sans-serif;
   margin:10px;
 }
 .header a {
@@ -256,12 +256,12 @@ li a:hover {
 }
 .panel-footer a:hover{
   color:rgb(180, 180, 180);
-  font-size: 1.2em;
+  font-size: 1.21em;
 }
 .footer-text{
   text-decoration-color: white;
   font-family: 'Oxygen', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 /** Buttons **/
 .fa {
