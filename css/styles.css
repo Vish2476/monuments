@@ -2,7 +2,7 @@
 
 body {
   background-attachment: scroll;
-  background:url(1.tajmahal/backgroung.jpg) repeat;
+  background: url('../background.jpg') repeat;
   margin-top: 0px;
   margin-bottom: 0x;
   margin-right: 0px;
@@ -28,8 +28,8 @@ a:active {
 }
 
 .header{
+  background: url('../background-top.jpg') repeat;
   overflow: hidden;
-  background-color: #f1f1f1;
   padding: 0px 0px;
   margin:1px
   position: absolute;
