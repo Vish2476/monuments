@@ -2,7 +2,7 @@
 
 body {
   background-attachment: scroll;
-  background: url('../background.jpg') repeat center top;
+  background: url('../background.jpg') repeat center center;
   margin-top: 0px;
   margin-bottom: 0x;
   margin-right: 0px;
@@ -213,13 +213,20 @@ li a:hover {
   margin-left:0px;
   background-color: none;
 }
-.youtube,.pdf,.maps{
-  align-items: center;
+.youtube{
   float:left;
-  margin-top: 10px;
-  margin-bottom: 30x;
-  margin-left: 10%;
-  margin-right: 10%px;
+  height:20%;
+  width:30%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom: 20px;
+}
+.maps{
+  float:left;
+  height:20%;
+  width:30%;
+  margin-left:10%;
+  margin-right:10%;
 }
 
 .footer{
