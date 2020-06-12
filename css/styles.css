@@ -2,6 +2,7 @@
 
 body {
   background-attachment: scroll;
+  background:url(1.tajmahal/backgroung.jpg) repeat;
   margin-top: 0px;
   margin-bottom: 0x;
   margin-right: 0px;
@@ -83,6 +84,18 @@ ul {
   list-style-type: none;;
   overflow: hidden;
   
+}
+.sticky {
+
+  top: 0;
+}
+.links{
+  float:top;
+  width:100%;
+  padding:0px;
+  margin-right:0px;
+  margin-left:0px;
+  background-color: #333;
 }
 li {
   float: left;
@@ -284,35 +297,7 @@ li a:hover {
 .visitor-count{
     text-align: center;
 }
-#nav-list {
-  float:left;
-  width:100.5%;
-  padding:-5px;
-  margin-left:0px;
-  background-color: #333;
-  font-family: 'Oxygen', sans-serif;
-}
-#nav-list a {
-  color: white;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: white;
-  color:black;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: 0px;
-}
-.text-bar{
-  text-align: center;
-}
+
 /**-------------------------------------------------------------------*
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -355,6 +340,9 @@ li a:hover {
     }
      .header-name{
     font-size: 3em;
+  }
+  .links{
+    display: none;
   }
   .header-button {
     object-position: center;
