@@ -2,7 +2,7 @@
 
 body {
   background-attachment: scroll;
-  background: url('../background.jpg') repeat;
+  background: url('../background.jpg') repeat center top;
   margin-top: 0px;
   margin-bottom: 0x;
   margin-right: 0px;
@@ -28,7 +28,7 @@ a:active {
 }
 
 .header{
-  background: url('../background-top.jpg') repeat;
+  background: url('../background-top.jpg') repeat center top;;
   overflow: hidden;
   padding: 0px 0px;
   margin:1px
@@ -341,9 +341,6 @@ li a:hover {
      .header-name{
     font-size: 3em;
   }
-  .links{
-    display: none;
-  }
   .header-button {
     object-position: center;
     margin:4px;
@@ -353,7 +350,7 @@ li a:hover {
     text-align: center;
   }
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0; 
   }
   .panel-footer section hr {
     width: 50%;
