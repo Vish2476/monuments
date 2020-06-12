@@ -23,21 +23,34 @@
     <a class="active" href="#about">About</a>
  </div></div>
 </p></div>
-<div class="sticky">
-<ul class="links">
-  <li><a href="monuments.html" target="_blank">Home</a></li>
-  <li><a href="https://www.tajmahal.gov.in/" target="_blank">Official Site</a></li>
-  <li><a href="https://www.tajmahal.gov.in/taj-mahal-photo-gallery.aspx" target="_blank">Gallery</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">Wikipedia</a></li>
-  <li><a href="https://en.wikipedia.org/api/rest_v1/page/pdf/Taj_Mahal" target="_blank">Details Download</a></li>
-  <li><a href="https://www.tajmahal.gov.in/images/map/front.jpg" target="_blank">Guide Maps</a></li>
-  <li><a href="https://www.google.com/maps/place/Taj+Mahal/@27.1750082,78.0431095,3a,75y,64.05h,105.
-76t/data=!3m8!1e1!3m6!1sAF1QipMu_ZghP7g4QL7ACT2gXPTEwqbA4CjPpMN96RD5!2e10!3e11!6shttps:%2F%2Flh5.
-googleusercontent.com%2Fp%2FAF1QipMu_ZghP7g4QL7ACT2gXPTEwqbA4CjPpMN96RD5%3Dw224-h298-k-no-pi-15.7556
-26-ya62.76752-ro-0-fo100!7i7776!8i3888!4m14!1m6!3m5!1s0x39747121d702ff6d:0xdd2ae4803f767dde!2sTaj+Mah
-al!8m2!3d27.1751448!4d78.0421422!3m6!1s0x39747121d702ff6d:0xdd2ae4803f767dde!8m2!3d27.1751448!4d78.042142
-2!14m1!1BCgIgARICCAI" target="_blank">360 Tour</a></li>
-</ul></div>
+
+ <nav id="header-nav" class="navbar navbar-default">
+  <div class="container">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div id="collapsable-nav" class="collapse navbar-collapse">
+    <ul id="nav-list" class="nav navbar-nav navbar-right">
+      <li class="text-bar"><a href="monuments.html" target="_blank">Home<br class="hidden-xs"></a></li>
+      <li class="text-bar"><a href="https://www.tajmahal.gov.in/" target="_blank">Official Site<br></a></li>
+      <li class="text-bar"><a href="https://www.tajmahal.gov.in/taj-mahal-photo-gallery.aspx" target="_blank">Gallery</a></li>`
+      <li class="text-bar"><a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">Wikipedia</a></li>
+      <li class="text-bar"><a href="https://en.wikipedia.org/api/rest_v1/page/pdf/Taj_Mahal" target="_blank">Details Download</a></li>
+      <li class="text-bar"><a href="https://www.tajmahal.gov.in/images/map/front.jpg" target="_blank">Guide Maps</a></li>
+      <li class="text-bar"><a href="https://www.google.com/maps/place/Taj+Mahal/@27.1750082,78.0431095,3a,75y,64.05h,105.
+      76t/data=!3m8!1e1!3m6!1sAF1QipMu_ZghP7g4QL7ACT2gXPTEwqbA4CjPpMN96RD5!2e10!3e11!6shttps:%2F%2Flh5.
+      googleusercontent.com%2Fp%2FAF1QipMu_ZghP7g4QL7ACT2gXPTEwqbA4CjPpMN96RD5%3Dw224-h298-k-no-pi-15.7556
+      26-ya62.76752-ro-0-fo100!7i7776!8i3888!4m14!1m6!3m5!1s0x39747121d702ff6d:0xdd2ae4803f767dde!2sTaj+Mah
+      al!8m2!3d27.1751448!4d78.0421422!3m6!1s0x39747121d702ff6d:0xdd2ae4803f767dde!8m2!3d27.1751448!4d78.042142
+      2!14m1!1BCgIgARICCAI" target="_blank">360 Tour</a></li>
+    </ul>
+  </div><!-- .collapse .navbar-collapse -->
+  </div><!-- .container -->
+</nav>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <script>
 var mybutton = document.getElementById("myBtn");
@@ -156,8 +169,12 @@ it made use of the services of 22,000 laborers and 1,000 elephants. The monument
 		</p>
         </section>
       </div>
-      <div class="text-center">&copy; Copyright Rohit Kumar<br>This Site is Developed and Hosted by Rohit Kumar</div>
+      <div class="text-center">&copy; Copyright Rohit Kumar<br>
+      	<marquee behavior="scroll" direction="left">This Site is Developed and Hosted by Rohit Kumar</marquee></div>
     </div>
   </footer>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

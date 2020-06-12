@@ -84,18 +84,6 @@ ul {
   overflow: hidden;
   
 }
-.sticky {
-
-  top: 0;
-}
-.links{
-  float:top;
-  width:100%;
-  padding:0px;
-  margin-right:0px;
-  margin-left:0px;
-  background-color: #333;
-}
 li {
   float: left;
 }
@@ -296,19 +284,49 @@ li a:hover {
 .visitor-count{
     text-align: center;
 }
+#nav-list {
+  float:top;
+  width:100.5%;
+  padding:0px;
+  margin:0px;
+  background-color: #333;
+  font-family: 'Oxygen', sans-serif;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+  color:black;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.text-bar{
+  text-align: center;
+}
 /**-------------------------------------------------------------------*
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .header-name{
     font-size: 6em;
-    }
+  }
+
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   .header-name{
     font-size: 5em;
-    }
+  }
   
 }
 
@@ -326,12 +344,13 @@ li a:hover {
   }
   .footer-text{
   font-size: 20px;
- }
+  }
 }
 
+
 /********** Extra small devices only **********/
-@media (max-width: 767px) { 
-    .header-button{
+@media (max-width: 767px) {
+.header-button{
       display:none;
     }
      .header-name{
@@ -353,24 +372,6 @@ li a:hover {
   }
   .footer-text{
   font-size: 18px;
-}
-
-}
-
-
-/********** Super extra small devices Only **********/
-@media (max-width: 479px) {
-    .header-button{
-      display:none;
-    }
-    .header-name {
-    font-size: 3em;
   }
-    .header-button {
-    object-position: center;
-    margin:3px;
-  }
-  .footer-text{
-  font-size: 16px;
-  }
+
 }
