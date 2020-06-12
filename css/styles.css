@@ -107,6 +107,9 @@ li a:hover {
   background-color: white;
   color:black;
 }
+li a:active {
+  text-decoration: none;
+}
 
 /** TOP BUTTON CSS STYLES **/
 .fade {
@@ -254,10 +257,10 @@ li a:hover {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 0px 5px 2px 0px;
+  margin: 0px 2px 2px 0px;
 }
 .fa:hover {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .fa-facebook {
   background: #3B5998;
