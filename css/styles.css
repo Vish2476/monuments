@@ -136,6 +136,10 @@ li a:active {
   background-color: #555;
 }
 /** IMAGE SLIDESHOW CSS STYLES **/
+img {
+  vertical-align: middle;
+}
+/** IMAGE SLIDESHOW CSS STYLES **/
 .slideshow-container {
   max-width: 1000px;
   position: relative;
