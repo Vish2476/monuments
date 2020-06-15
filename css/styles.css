@@ -200,7 +200,7 @@ img {
 
 }
 .reference{
-  align-items: center;
+  vertical-align: center;
   float:top;
   padding:0px;
   margin-right:0px;
