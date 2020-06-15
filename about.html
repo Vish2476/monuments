@@ -1,0 +1,204 @@
+<! –– HTML CODING FOR ABOUT US(about.html) ––>
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      background:transparent url('background-img/B.jpg') repeat center top;
+    }
+  </style>
+  <title>About Us</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+<body>
+<! –– HEADER ––>
+  <div class="header">
+    <p class="header" id="head">
+    <div class="header-name" id="head-name">About Us
+    <div class="header-button">
+        <a class="active" href="monuments.html">Home</a>
+        <a class="active" href="#contact">Contact</a>
+        <a class="active" href="about.html">About</a>
+      </div>
+      </div>
+      </p>
+    </div>
+<! –– MENU BAR ––>
+  <div>
+    <ul class="links">
+        <li><a href="monuments.html" title="Monuments of India" target="_blank">Home</a></li>
+        <li><a href="tajmahal.html" title="Taj Mahal" target="_blank">1</a></li>
+        <li><a href="redfort.html" title="Red Fort" target="_blank">2</a></li>
+        <li><a href="lotustemple.html" title="Lotus Temple" target="_blank">3</a></li>
+        <li><a href="qutubminar.html" title="Qutub Minar" target="_blank">4</a></li>
+        <li><a href="victoriamemorial.html" title="Victoria Memorial" target="_blank">5</a></li>
+        <li><a href="gatewayofindia.html" title="Gateway of India" target="_blank">6</a></li>
+        <li><a href="charminar.html" title="Charminar" target="_blank">7</a></li>
+        <li><a href="hawamahal.html" title="Hawa Mahal" target="_blank">8</a></li>
+        <li><a href="mysorepalace.html" title="Mysore Palace" target="_blank">9</a></li>
+        <li><a href="cst.html" title="CST" target="_blank">10</a></li>
+    </ul>
+  </div>
+<! –– TOP BUTTON ––>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+  <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        } 
+      else {
+        mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+      }
+  </script>
+<! –– IMAGE SLIDESHOW ––>
+  <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 10</div>
+        <img src="1.tajmahal/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">2 / 10</div>
+          <img src="2.redfort/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">3 / 10</div>
+          <img src="3.lotustemple/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 10</div>
+        <img src="4.qutubminar/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">5 / 10</div>
+          <img src="5.victoriamemorial/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">6 / 10</div>
+          <img src="6.gatewayofindia/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">7 / 10</div>
+          <img src="7.charminar/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">8 / 10</div>
+          <img src="8.hawamahal/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">9 / 10</div>
+          <img src="9.mysorepalace/image2.jpg" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <div class="numbertext">10 / 10</div>
+          <img src="10.cst/image2.jpg" style="width:100%">
+      </div>
+  </div><br>
+  <div style="text-align:center">
+    <span class="dot"></span> <span class="dot"></span> <span class="dot"></span><span class="dot"></span> 
+    <span class="dot"></span> <span class="dot"></span><span class="dot"></span> <span class="dot"></span> 
+    <span class="dot"></span><span class="dot"></span> 
+  </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+        }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+        }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 1000); // Change image every 1 seconds
+    }
+  </script>
+<! –– BODY ––>
+  <div id="body-text-1"><div class="body-title-1">About Us</div>Rohit Kumar<br><q>I love to learn about new technologies and would like to contribute alongwith upgrading my skills and knowledge.</q><br>#Ghaziabad,UP<br>#A Web Developer<br>#B.Tech/Computer Science and Engineering<br>#ABES Engineering College,Ghaziabad.<br>For More Details Check Out below:</div>
+  <hr width="100%">
+  <div id="body-text-1"><div class="body-title-1">References</div><ul>
+    <li>1.Government of India</li><br>
+    <li>2.Wikipedia</li><br>
+    <li>3.Getty Images</li><br>
+    <li>4.Google Maps</li><br>
+    <li>5.Official Websites</li><br>
+    <li>6.You Tube</li><br>
+    <li>7.Web Free Counter</li><br>
+    <li>8.W3CSchools</li></ul><br>
+    </div>
+  <hr width="100%">
+<! –– FOOTER ––>
+  <footer class="panel-footer ">
+      <div class="container">
+          <div class="row footer-text">
+<! –– MONUMENTS LIST ––>
+            <section id="monuments-list" class="col-sm-4">
+              <span><a href="monuments.html" target="_blank">Home Page</a></span><br>
+              <a href="tajmahal.html" target="_blank">1.Taj Mahal</a><br>
+              <a href="redfort.html" target="_blank">2.Red Fort</a><br>
+              <a href="lotustemple.html" target="_blank">3.Lotus Temple</a><br>
+              <a href="qutubminar.html" target="_blank">4.Qutub Minar</a><br>
+              <a href="victoriamemorial.html" target="_blank">5.Victoria Memorial</a><br>
+              <a href="gatewayofindia.html" target="_blank">6.Gateway of India</a><br>
+              <a href="charminar.html" target="_blank">7.Charminar</a><br>
+              <a href="hawamahal.html" target="_blank">8.Hawa Mahal</a><br>
+              <a href="mysorepalace.html" target="_blank">9.Mysore Palace</a><br>
+              <a href="cst.html" target="_blank">10.CST</a><br><hr class="visible-xs">
+            </section>
+<! –– IMPORTANT SITES ––>
+            <section id="important-sites" class="col-sm-4">
+                <span>Important Sites</span><br>
+                <a href="https://www.india.gov.in/" target="_blank">1.Government of India<br>
+                <a href="http://tourism.gov.in/" target="_blank">2.Ministry of Tourism<br>
+                <a href="http://asi.nic.in/" target="_blank">2.Archaeological Survey of India<br>
+                <a href="https://www.google.com/maps" target="_blank">4.Google Maps<br>
+                <a href="https://www.wikipedia.org/" target="_blank">5.Wikipedia<br>
+                <a href="https://en.unesco.org/" target="_blank">6.UNESCO<br>
+                <a href="#projrctreport" target="_blank">7.Project Report<br>
+                <a href="https://www.webfreecounter.com/" target="_blank">Visitor No: <img src="https://www.webfreecounter.com/hit.php?id=guaoknq&nd=6&style=121" border="0" alt="free counter"></a>
+                <hr class="visible-xs">
+            </section>
+<! –– ABOUT US ––>
+            <section id="about" class="col-sm-4">
+                <p>Contact Us:<br>
+                <a href="https://rk2962002.github.io/my-site/index.html" target="_blank">Rohit Kumar</a><br><a href="https://ghaziabad.nic.in/en/" target="_blank">Ghaziabad,U.P</a><br>
+                <a href="tel:9084950475"><span class="glyphicon glyphicon-earphone"></span>&nbsp;9084950475</a><br>
+                <a href = "mailto: rohit.19b101051@abes.ac.in"><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;rohit.19b101051@abes.ac.in</a><br><br>Follows Us:<br>
+              <a href="https://www.facebook.com/profile.php?id=100040466752176" target="_blank" class="fa fa-facebook"></a>&nbsp;
+          <a href="https://twitter.com/rk2962002" target="_blank" class="fa fa-twitter"></a>&nbsp;
+          <a href="https://www.linkedin.com/in/rohit-kumar-28494415a/" target="_blank" class="fa fa-linkedin"></a>&nbsp;
+          <a href="https://www.instagram.com/rk__rohitkumar/" target="_blank" class="fa fa-instagram"></a>
+          </p>
+            </section>
+          </div>
+<! –– COPYRIGHT ––>
+          <div class="text-center">&copy; Copyright Rohit Kumar|Monuments of India|2020<br>
+            <marquee behavior="scroll" direction="left">This Site is Developed and Hosted by Rohit Kumar&nbsp;&nbsp;&nbsp;&nbsp;Thanks for Visiting&nbsp;&nbsp;&nbsp;&nbsp;Visit Again</marquee>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
+<! –– END OF CODE ––>
+<! –– ROHIT KUMAR ––>
