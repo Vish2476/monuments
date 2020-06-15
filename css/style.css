@@ -82,6 +82,7 @@ a:active {
 ul {
   list-style-type: none;;
   overflow: hidden;
+  text-decoration: none;
 }
 .links{
   float:top;
@@ -199,6 +200,7 @@ img {
   font-family: 'Oxygen', sans-serif; 
 }
 #body-text-1{
+   color:black;
   float:left;
   font-family: 'Oxygen', sans-serif;
   margin-left: 40px;
@@ -206,15 +208,20 @@ img {
   padding: 20px;
   font-size: 1.5em;
   text-align: justify;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .body-title-1{
   text-align: center;
   margin-top:20px;
   font-size: 2em;
   font-family: 'Oxygen', sans-serif; 
-
-}-
+}
+span.referen a{
+  color:black;
+  }
+span.referen a:hover{
+  color:brown;
+  }
 .reference{
   align-items: center;
   float:top;
