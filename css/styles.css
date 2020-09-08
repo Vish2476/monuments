@@ -326,6 +326,9 @@ img {
   .footer-text{
     font-size: 20px;
   }
+  .text-center{
+    font-size: 15px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -363,7 +366,10 @@ img {
   .footer-text{
     font-size: 18px;
   }
+    .text-center{
+    font-size: 10px;
+  }
 }
 
-/*******END OF CSS STLESSHEET ********/
+/*******END OF CSS STYLESHEET ********/
 /***      BY : ROHIT KUMAR         ***/

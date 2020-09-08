@@ -349,6 +349,9 @@ span.referen a:hover{
   .footer-text{
     font-size: 20px;
   }
+  .text-center{
+    font-size: 15px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -395,6 +398,9 @@ span.referen a:hover{
   }
   .footer-text{
     font-size: 18px;
+  }
+    .text-center{
+    font-size: 10px;
   }
 }
 
