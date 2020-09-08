@@ -324,10 +324,13 @@ img {
     margin:5px;
   }
   .footer-text{
-    font-size: 18px;
+    font-size: 20px;
   }
   .text-center{
     font-size: 15px;
+  }
+  .important-sites .about{
+   display:none;
   }
 }
 
@@ -364,7 +367,10 @@ img {
     width: 50%;
   }
   .footer-text{
-    font-size: 13px;
+    font-size: 18px;
+  }
+  .important-sites .about{
+   display:none;
   }
     .text-center{
     font-size: 10px;

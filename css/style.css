@@ -352,6 +352,9 @@ span.referen a:hover{
   .text-center{
     font-size: 15px;
   }
+ .important-sites .about{
+   display:none;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -401,6 +404,9 @@ span.referen a:hover{
   }
     .text-center{
     font-size: 10px;
+  }
+ .important-sites .about{
+   display:none;
   }
 }
 
