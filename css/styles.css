@@ -90,6 +90,7 @@ ul {
   margin-right:0px;
   margin-left:0px;
   background-color: #333;
+
 }
 li {
   float: left;
@@ -141,7 +142,7 @@ img {
 }
 /** IMAGE SLIDESHOW CSS STYLES **/
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 90%;
   position: relative;
   margin: auto;
 }
