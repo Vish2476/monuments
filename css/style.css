@@ -33,8 +33,7 @@ a:active {
 .header{
   overflow: hidden;
   padding: 0px 0px;
-  margin:1px
-  position: absolute;
+  margin:0px
   left: 0px;
   top: 0px;
   position: relative;
@@ -45,7 +44,7 @@ a:active {
   text-decoration: none;
   font-family: 'Metal Mania', Oxygen;
   font-style: normal;
-  font-size: 6em;
+  font-size: 4em;
   position: sticky;
 }
 .header-button {
@@ -53,7 +52,8 @@ a:active {
   position:relative;
   object-position: top;
   font-family: 'Oxygen', sans-serif;
-  margin:10px;
+  margin:2px;
+  color: black;
 }
 
 /** HEADER LINKS CSS STYLES **/
@@ -69,13 +69,13 @@ a:active {
   position: relative;
 }
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #333;
   color: white;
   margin:2px;
 }
 .header a.hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /** MENU BAR CSS STYLES **/

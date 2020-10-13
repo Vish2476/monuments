@@ -69,13 +69,13 @@ a:active {
   position: relative;
 }
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #333;
   color: white;
   margin:2px;
 }
 .header a.hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /** MENU BAR CSS STYLES **/
