@@ -191,13 +191,15 @@ img {
   margin-right: 40px;
   padding: 20px;
   text-align: justify;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
 }
+
 .body-title{
   text-align: center;
   margin-top:20px;
   font-size: 2em;
   font-family: 'Oxygen', sans-serif; 
+  background-color: rgba(255, 255, 255, 0.7);
 
 }
 .reference{
