@@ -142,7 +142,7 @@ img {
 }
 /** IMAGE SLIDESHOW CSS STYLES **/
 .slideshow-container {
-  max-width: 90%;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
