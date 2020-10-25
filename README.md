@@ -24,5 +24,5 @@ This websites consists of 12 Self made webpages and other external links.\
 11.[CST](https://rk-rohitkumar.github.io/monuments/cst.html)|[View Code](cst.html)\
 12.[About Us](https://rk-rohitkumar.github.io/monuments/about.html)|[View Code](about.html)
 ************************************************************
-#### Created and Hosted by [Rohit Kumar](https://rk-rohitkumar.github.io/rk-rohitkumar/index.html)
+#### Created and Hosted by [Rohit Kumar](https://rebrand.ly/rk/website)
 ************************************************************
